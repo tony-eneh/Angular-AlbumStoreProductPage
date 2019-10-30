@@ -8,6 +8,7 @@ import { ProductService } from '../product.service';
   styleUrls: ['./product-tracklisting.component.css']
 })
 export class ProductTracklistingComponent implements OnInit {
+  albumInfo: Album;
 
   constructor() { }
 
